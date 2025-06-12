@@ -13,11 +13,11 @@ const HeroSection = () => {
         }}
       />
 
-      {/* Top Gradient Overlay */}
-      <div className="absolute top-0 left-0 right-0 h-32 bg-gradient-to-b from-black to-transparent z-10" />
+      {/* Top Gradient Overlay - More gradual transition */}
+      <div className="absolute top-0 left-0 right-0 h-48 bg-gradient-to-b from-black via-black/60 to-transparent z-10" />
 
-      {/* Bottom Gradient Overlay */}
-      <div className="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-t from-black to-transparent z-10" />
+      {/* Bottom Gradient Overlay - More gradual transition */}
+      <div className="absolute bottom-0 left-0 right-0 h-48 bg-gradient-to-t from-black via-black/60 to-transparent z-10" />
 
       {/* Dark Overlay for Better Text Readability */}
       <div className="absolute inset-0 bg-black/40 z-20" />

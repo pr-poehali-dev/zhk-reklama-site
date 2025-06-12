@@ -1,6 +1,11 @@
+body {
+  background-color: #000000;
+}
+
 #root {
   margin: 0 auto;
   text-align: center;
+  background-color: #000000;
 }
 
 .logo {
